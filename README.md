@@ -27,3 +27,9 @@ You can run unit test with the next command
 ```bash
   npm run test
 ```
+
+You can run unit test with coverage with the next command
+
+```bash
+  npm run test:coverage
+```
