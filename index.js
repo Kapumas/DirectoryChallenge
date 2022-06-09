@@ -10,9 +10,6 @@ class Directory {
    */
   constructor(_file) {
     this.inputFile = _file;
-    this.listFolders.bind(this);
-    this.printTree.bind(this);
-    this.getChildsByFolder.bind(this);
   }
   /* Creating an empty object. */
   mapDirectories = {};
@@ -183,7 +180,7 @@ class Directory {
   }
 }
 
+/* It's creating a new instance of the Directory class, and it's passing the entryFile as an argument. */
 const myDirectory = new Directory(entryFile);
 myDirectory.runDirectories();
-
 module.exports = Directory;
